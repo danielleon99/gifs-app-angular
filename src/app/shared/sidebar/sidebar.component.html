@@ -1,0 +1,12 @@
+<!-- Sidebar-->
+<div class="bg-dark border-right p-3 text-center" id="sidebar">
+    <h3 class="text-light">Gifs-App</h3>
+    <hr class="text-white">
+    <h6 class="text-light text-center">History</h6>
+    <div class="list-group list-reset">
+        <a href="#" class="list-group-item list-group-item-action" *ngFor="let hist of history">
+            {{hist | titlecase}}
+        </a>
+    </div>
+</div>
+<!-- End Sidebar-->
